@@ -1,0 +1,85 @@
+.LoginPage{
+    --bgColor: #EED6D3;
+    --boxColor: #E8B4B8;
+    --textColor: #67595E;
+    box-sizing: border-box;
+    
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    background-color: var(--bgColor);
+    }
+    
+    .header{
+    margin-bottom: 40px; 
+    text-align: center;
+    font-size: 35px;
+    font-weight: bold;
+    color: var(--textColor);
+    }
+    
+    .loginBox{
+    width: 30%;
+    height: 55%;
+    border: 1px solid black;
+    border-radius: 10px;
+    
+    background-color: var(--boxColor);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    }
+    
+    
+    .loginBox_header{
+    margin: 0;
+    position: relative;
+    top: 75px;
+    width: 100%;
+    text-align: center;
+    font-size: 25px;
+    font-weight: normal;
+    }
+    
+    #lowerBody{
+    font-size: 14px;
+    top: 80px;
+    font-weight: 100;
+    }
+    
+    .textField{
+    position: relative;
+    margin: 10px 0;
+    padding: 5px 10px;
+    text-align: left;
+    
+    top: 110px;
+    left: 50%;
+    transform: translateX(-50%);
+    
+    width: 65%;
+    height: 10%;
+    
+    border: 1px solid black;
+    border-radius: 3px;
+    }
+    
+    .login_button{
+    position: relative;
+    
+    top: 125px;
+    left: 50%;
+    transform: translateX(-50%);
+    
+    width: 50%;
+    padding: 3px 0;
+    /* opacity: 0.9; */
+    
+    border: 1px solid black;
+    color: white;
+    border-radius: 3px;
+    background-color: hsla(212, 78%, 35%, 0.958);
+    }
+    
