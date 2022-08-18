@@ -29,17 +29,17 @@ function Signup() {
     
     <div className="SignupPage">
 
-      <div className='header'> Prizer </div>
+      {/* <div className='header'> Prizer </div> */}
 
       <div className='card'> 
 
-        <h3 className='card_header'> Create an Account </h3>
-        <h4 className= 'card_header' id= 'lowerBody'>to continue to Zello</h4>
+        <h3 className='card_header'> Create an account</h3>
+        {/* <h4 className= 'card_header' id= 'lowerBody'>Join the community</h4> */}
         
         <form onSubmit={handleSubmit}>
           <input className='textField' ref={emailRef} type='text' placeholder='Email' />
           <input className='textField' ref={passwordRef} type='password' placeholder='Password' />
-          <button disabled={loading} className='signup_button' type='submit'> Create Account </button>
+          <button disabled={loading} className='signup_button' type='submit'> Sign Up</button>
         </form>
 
       </div>
